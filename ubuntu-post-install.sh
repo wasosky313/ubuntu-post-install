@@ -8,7 +8,7 @@ sudo apt  -y upgrade
 
 # install basic
 echo "installing the basic"
-sudo apt install -y wget git curl gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager build-essential terminator neovim openssh-server 
+sudo apt install -y wget git curl gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager build-essential terminator neovim openssh-server autojump
 
 # install oh-my-zsh
 echo "Install and setting oh-my-zsh"
@@ -139,6 +139,12 @@ gsettings set org.gnome.desktop.default-applications.terminal exec '/usr/bin/ter
 echo "******* copy the key and paste into your github SSH settings ********"
 cat ~/.ssh/id_ed25519.pub
 echo "******************************************************" 
+
+echo "************ Config autojum *************"
+echo -e "\n. /usr/share/autojump/autojump.sh" >> ~/.bashrc
+echo -e "\n. /usr/share/autojump/autojump.sh" >> ~/.zshrc
+echo "************ Config autojum finished *************"
+echo "******************************************************"
 
 # TODO
 # add README.MD
