@@ -8,7 +8,7 @@ sudo apt  -y upgrade
 
 # install basic
 echo "installing the basic"
-sudo apt install -y wget git curl gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager build-essential terminator neovim openssh-server autojump
+sudo apt install -y wget git curl gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager build-essential terminator neovim openssh-server autojump qbittorrent
 
 # install oh-my-zsh
 echo "Install and setting oh-my-zsh"
