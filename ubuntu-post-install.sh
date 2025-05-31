@@ -8,7 +8,13 @@ sudo apt  -y upgrade
 
 # install basic
 echo "installing the basic"
-sudo apt install -y wget git curl gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager build-essential terminator neovim openssh-server autojump qbittorrent
+sudo apt install -y wget git curl gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager build-essential terminator neovim openssh-server autojump qbittorrent vlc smplayer
+
+# install nemo file manager
+echo "Installing Nemo file manager"
+sudo apt install -y nemo nemo-fileroller nemo-compare 
+# set nemo as default file manager
+xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
 
 # install oh-my-zsh
 echo "Install and setting oh-my-zsh"
