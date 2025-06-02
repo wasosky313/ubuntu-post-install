@@ -97,6 +97,9 @@ echo "************Installing and setting flatpak************"
 echo "******************************************************"
 sudo apt install -y flatpak gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+echo "Installing gearlever appImage installer"
+flatpak install flathub it.mijorus.gearlever
+echo "Finished gearlever"
 echo "Installing logseq"
 flatpak install -y flathub com.logseq.Logseq
 echo "Finished logseq"
