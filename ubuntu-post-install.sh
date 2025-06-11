@@ -118,19 +118,20 @@ echo "******************************************************"
 echo "******************** SETTINGS ************************"
 echo "******************************************************" 
 
-echo "GIT ssh settings"
-ssh-keygen -t ed25519 -C "wasosky313@gmail.com" -f ~/.ssh/id_ed25519 -N ""
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-git config --global user.email "wasosky313@gmail.com"
-git config --global user.name "Andy Reyes"
-echo "Test Github connection"
-ssh -T git@github.com
-echo "GIT shh settings finished"
+# TODO make it
+# echo "GIT ssh settings"
+# ssh-keygen -t ed25519 -C $EMAIL -f ~/.ssh/id_ed25519 -N ""
+# eval "$(ssh-agent -s)"
+# ssh-add ~/.ssh/id_ed25519
+# git config --global user.email $EMAIL
+# git config --global user.name $FULL_NAME
+# echo "Test Github connection"
+# ssh -T git@github.com
+# echo "GIT shh settings finished"
 
-echo "GIT GPG settings"
+# echo "GIT GPG settings"
 
-echo "GIT GPG settings finished"
+# echo "GIT GPG settings finished"
 
 echo "Gnome Styles"
 
