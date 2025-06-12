@@ -141,6 +141,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
 gsettings set org.gnome.shell.extensions.dash-to-dock intellihide true
+gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 
 echo "Set terminator as default terminal emulator"
 gsettings set org.gnome.desktop.default-applications.terminal exec '/usr/bin/terminator'
