@@ -157,14 +157,3 @@ echo -e "\n. /usr/share/autojump/autojump.sh" >> ~/.zshrc
 echo "************ Config autojum finished *************"
 echo "******************************************************"
 
-# TODO
-# github settings
-# add README.MD
-# set variable email, name, github_token (ssh config)
-# ask for sudo passwd before start
-# install warp
-# Install lunarVIM
-# select packages
-
-
-
